@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="cabecera">30sp</dimen>
+
+    <dimen name="etiqueta">16sp</dimen>
+
+    <dimen name="padding">15dp</dimen>
+
+    <dimen name="pie">25sp</dimen>
+    <dimen name="pietxiki">16sp</dimen>
+
+    <dimen name="distanciaborde">10dp</dimen>
+    <dimen name="tamanoborde">5dp</dimen>
+    <dimen name="paddingborde">8dp</dimen>
+
+    <dimen name="textoSpinner">30dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

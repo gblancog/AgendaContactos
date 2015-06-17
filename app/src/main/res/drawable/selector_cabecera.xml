@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <!-- Color de fondo -->
+            <solid
+                android:color="@color/fondo"/>
+
+            <stroke
+                android:width="@dimen/tamanoborde"
+                android:color="@color/blanco"/>
+
+            <!-- Padding (distancia del texto al borde -->
+            <padding
+                android:left="@dimen/paddingborde"
+                android:top="@dimen/paddingborde"
+                android:bottom="@dimen/paddingborde"
+                android:right="@dimen/paddingborde"/>
+
+            <!-- Bordes redondeados -->
+            <corners
+                android:bottomRightRadius="@dimen/tamanoborde"
+                android:bottomLeftRadius="@dimen/tamanoborde"
+                android:topLeftRadius="@dimen/tamanoborde"
+                android:topRightRadius="@dimen/tamanoborde"/>
+        </shape>
+    </item>
+
+</selector>

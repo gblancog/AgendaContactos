@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="almi.curso.agendacontactos.Calendar"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:text="@string/selecciona"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"/>
+
+    <Spinner
+        android:id="@+id/spCaballo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgCaballo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

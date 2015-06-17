@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Agenda de Contactos</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Titulos de ventanas -->
+    <string name="title_activity_nuevo">Elige tu opcion de asynctask</string>
+    <string name="title_activity_calendar">Spinners y toast personalizados</string>
+    <string name="title_activity_users">Frame by frame y Tween</string>
+        <string name="title_activity_save">Property animation</string>
+
+    <string name="title_activity_nuevo_atask">AsyncTask</string>
+
+    <!-- ACTIVIDAD PRINCIPAL -->
+
+    <!-- Texto cabecera -->
+    <string name="cabecera">AGENDA DE CONTACTOS</string>
+
+    <!-- Texto botones -->
+    <string name="nuevo">Nuevo</string>
+    <string name="calendar">Calendario</string>
+    <string name="users">Contactos</string>
+    <string name="save">Opciones</string>
+
+    <!-- Texto pie -->
+    <string name="pie">Fin del diseño</string>
+    <string name="almi">Centro de estudios Almi</string>
+
+    <!-- ACTIVIDAD NUEVO -->
+
+    <!-- Texto botones -->
+    <string name="conTexto">Horizontal con texto</string>
+    <string name="conImagen">Horizontal con imagen</string>
+    <string name="nuevoBack">Volver</string>
+
+    <!-- ACTIVIDAD CALENDAR -->
+    <string name="selecciona">Selecciona una foto</string>
+    <string name="tCaballo">Caballo 1</string>
+</resources>

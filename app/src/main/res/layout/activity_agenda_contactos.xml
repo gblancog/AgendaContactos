@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="NestedWeights"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".AgendaContactos"
+    android:layout_weight="1">
+
+    <!-- Cabecera -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/distanciaborde"
+        android:layout_weight="3">
+
+        <TextView
+            android:id="@+id/cabecera"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/cabecera"
+            style="@style/cabecera"
+            android:layout_weight="1"
+            android:background="@drawable/selector_cabecera"/>
+
+    </LinearLayout>
+
+    <!-- Tabla botones -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <!-- Primera fila -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_weight="1">
+
+            <!-- Primera caja -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/padding">
+
+                <!-- Boton primera caja -->
+                <Button
+                    android:id="@+id/boton_nuevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_nuevo"
+                    android:layout_weight="1"/>
+
+                <!-- Texto primera caja -->
+                <TextView
+                    android:id="@+id/txt_nuevo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/etiqueta"
+                    android:text="@string/nuevo"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <!-- Segunda caja -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/padding">
+
+                <!-- Boton segunda caja -->
+                <Button
+                    android:id="@+id/boton_calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_calendar"
+                    android:layout_weight="1"/>
+
+                <!-- Texto segunda caja -->
+                <TextView
+                    android:id="@+id/txt_calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/etiqueta"
+                    android:text="@string/calendar"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Segunda fila -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_weight="1">
+
+            <!-- Tercera caja -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/padding">
+
+                <!-- Boton tercera caja -->
+                <Button
+                    android:id="@+id/boton_users"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_users"
+                    android:layout_weight="1"/>
+
+                <!-- Texto tercera caja -->
+                <TextView
+                    android:id="@+id/txt_users"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/etiqueta"
+                    android:text="@string/users"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+            <!-- Cuarta caja -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:padding="@dimen/padding">
+
+                <!-- Boton cuarta caja -->
+                <Button
+                    android:id="@+id/boton_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/selector_save"
+                    android:layout_weight="1"/>
+
+                <!-- Texto cuarta caja -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    style="@style/etiqueta"
+                    android:text="@string/save"
+                    android:layout_weight="2"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Pie de app -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/pie"
+            android:textStyle="bold"
+            style="@style/pie"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/almi"
+            style="@style/pie.txiki"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="almi.curso.agendacontactos" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AgendaContactos"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NuevoATask"
+            android:label="@string/title_activity_nuevo_atask" >
+        </activity>
+        <activity
+            android:name=".Nuevo"
+            android:label="@string/title_activity_nuevo" >
+        </activity>
+        <activity
+            android:name=".Calendar"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name=".Users"
+            android:label="@string/title_activity_users" >
+        </activity>
+        <activity
+            android:name=".Save"
+            android:label="@string/title_activity_save" >
+        </activity>
+    </application>
+
+</manifest>

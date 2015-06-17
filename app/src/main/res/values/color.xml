@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color de fondo -->
+    <color name="fondo">#AAC1E2</color>
+
+    <!-- Textviews en las cajas -->
+    <color name="negro">#000000</color>
+    <color name="blanco">#FFFFFF</color>
+
+</resources>

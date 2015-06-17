@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="animacion">
+        <item>@drawable/caballo1</item>
+        <item>@drawable/caballo2</item>
+        <item>@drawable/caballo3</item>
+        <item>@drawable/caballo4</item>
+        <item>@drawable/caballo5</item>
+        <item>@drawable/caballo6</item>
+        <item>@drawable/caballo7</item>
+        <item>@drawable/caballo8</item>
+    </string-array>
+
+    <string-array name="caballos">
+        <item>Caballo 1</item>
+        <item>Caballo 2</item>
+        <item>Caballo 3</item>
+        <item>Caballo 4</item>
+        <item>Caballo 5</item>
+        <item>Caballo 6</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Estilo cabecera-->
+    <style name="cabecera">
+
+        <!-- Opciones del texto -->
+        <item name="android:textSize">@dimen/cabecera</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/blanco</item>
+    </style>
+
+    <!-- Textview bajo los botones -->
+    <style name="etiqueta">
+
+        <!-- Sombras -->
+        <item name="android:shadowColor">@color/negro</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">1.8</item>
+
+        <!-- Color -->
+        <item name="android:textColor">@color/blanco</item>
+
+        <!-- Tamaño -->
+        <item name="android:textSize">@dimen/etiqueta</item>
+
+        <!-- Centrado -->
+        <item name="android:gravity">center</item>
+
+        <!-- Negrita -->
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!-- Pie de app -->
+    <style name="pie">
+
+        <!-- Color -->
+        <item name="android:textColor">@color/blanco</item>
+
+        <!-- Tamaño -->
+        <item name="android:textSize">@dimen/pie</item>
+
+        <!-- Centrado -->
+        <item name="android:gravity">center</item>
+
+        <!-- Importancia en el layout -->
+        <item name="android:layout_weight">1</item>
+
+    </style>
+
+    <style name="pie.txiki">
+        <item name="android:textSize">@dimen/pietxiki</item>
+
+    </style>
+
+</resources>
